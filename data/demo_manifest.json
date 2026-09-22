@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "demo-flowchart.png",
+      "diagram_type": "flowchart",
+      "description": "A simple Start -> Validate -> Approved? -> Ship/Review flowchart."
+    },
+    {
+      "path": "demo-dfd.png",
+      "diagram_type": "dfd",
+      "description": "A small user, process, database, and external service data-flow diagram."
+    }
+  ]
+}

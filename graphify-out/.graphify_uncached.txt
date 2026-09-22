@@ -1,0 +1,5 @@
+C:\Users\harik\OneDrive\Desktop\VisuLogic\README.md
+C:\Users\harik\OneDrive\Desktop\VisuLogic\backend\requirements.txt
+C:\Users\harik\OneDrive\Desktop\VisuLogic\data\README.md
+C:\Users\harik\OneDrive\Desktop\VisuLogic\docs\phase-checklist.md
+C:\Users\harik\OneDrive\Desktop\VisuLogic\frontend\index.html
