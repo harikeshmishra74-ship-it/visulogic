@@ -48,3 +48,5 @@ cd data
 - Keep `VISULOGIC_MAX_UPLOAD_BYTES` and `VISULOGIC_MAX_IMAGE_PIXELS` conservative for the host size.
 - Put FastAPI behind HTTPS and a reverse proxy that enforces request body limits.
 - Do not persist demo uploads beyond the event unless users explicitly opt in.
+
+For Vercel-specific frontend settings, see `docs/vercel-deployment.md`.

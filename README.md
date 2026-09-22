@@ -56,3 +56,4 @@ npm.cmd run build
 ```
 
 See `docs/deployment-demo.md` for the demo dataset, deployment settings, and runbook.
+For Vercel frontend deployment, see `docs/vercel-deployment.md`.
