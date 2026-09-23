@@ -2,7 +2,7 @@ fastapi==0.116.1
 pydantic-settings==2.10.1
 python-multipart==0.0.20
 pillow==11.3.0
-opencv-python-headless==4.8.1.78
+opencv-python-headless==4.6.0.66
 numpy==1.26.4
 networkx==3.4.2
 sqlalchemy==2.0.38
