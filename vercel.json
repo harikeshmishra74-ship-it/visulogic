@@ -3,7 +3,7 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
-      "runtime": "python3.12",
+      "runtime": "@vercel/python",
       "includeFiles": "backend/app/**",
       "excludeFiles": "{frontend/**,node_modules/**,docs/**,backend/tests/**,.venv/**,*.md,*.db}"
     }
