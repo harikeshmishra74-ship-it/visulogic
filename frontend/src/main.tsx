@@ -26,7 +26,7 @@ import 'reactflow/dist/style.css';
 import './styles.css';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
-  ?? `${window.location.protocol}//${window.location.hostname}:8000/api`;
+  || (import.meta.env.DEV ? `${window.location.protocol}//${window.location.hostname}:8000/api` : '/api');
 const MAX_UPLOAD_BYTES = 8 * 1024 * 1024;
 const ACCEPTED_IMAGE_TYPES = new Set(['image/png', 'image/jpeg']);
 

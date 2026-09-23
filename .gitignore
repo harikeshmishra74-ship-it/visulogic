@@ -31,3 +31,7 @@ backend/uploads/*
 .idea/
 Thumbs.db
 .DS_Store
+
+.vercel
+.env*
+graphify-out/

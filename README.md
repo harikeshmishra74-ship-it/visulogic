@@ -6,6 +6,7 @@ VisuLogic is a hackathon MVP that converts uploaded or phone-captured technical 
 
 - Light theme only
 - No login or signup
+
 - No payments
 - Desktop-first analysis dashboard
 - Phone capture through temporary QR sessions and a mobile browser

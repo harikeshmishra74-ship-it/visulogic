@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -9,7 +11,11 @@ from app.db import init_db
 def create_app() -> FastAPI:
     settings = get_settings()
     app = FastAPI(title=settings.app_name, version="0.1.0")
-    dev_origin_regex = r"https?://.*:5173" if settings.environment == "development" else None
+    dev_origin_regex = (
+        r"https?://.*"
+        if (settings.environment == "development" or os.environ.get("VERCEL"))
+        else None
+    )
 
     app.add_middleware(
         CORSMiddleware,

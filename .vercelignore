@@ -1,0 +1,15 @@
+.git
+.venv
+.venv*
+backend/.venv*
+node_modules
+frontend/node_modules
+graphify-out
+data
+docs
+backend/tests
+backend/visulogic.db
+uploads
+backend/uploads
+*.log
+.pytest_cache
